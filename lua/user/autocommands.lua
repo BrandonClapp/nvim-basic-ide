@@ -1,3 +1,4 @@
+-- TODO: Figure out what this does. Add a description.
 vim.api.nvim_create_autocmd({ "FileType" }, {
 	pattern = { "qf", "help", "man", "lspinfo", "spectre_panel" },
 	callback = function()

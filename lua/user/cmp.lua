@@ -1,3 +1,4 @@
+-- TODO: Figure out what this does. Add a description.
 local cmp_status_ok, cmp = pcall(require, "cmp")
 if not cmp_status_ok then
 	return
