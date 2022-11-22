@@ -7,6 +7,7 @@ local servers = {
 	"bashls",
 	"jsonls",
 	"yamlls",
+  "gopls", -- go language server (installed via :Mason)
 }
 
 local settings = {
