@@ -11,6 +11,27 @@ func main() {
   fmt.Println("Jimmy neutron")
   fmt.Println("Now, how do I get LSP tooltip to show again?")
   fmt.Println("K in visual mode")
-
+  fmt.Println("this-is-a-word")
   fmt.Println("world...")
 }
+
+func someOtherFunc() {
+  fmt.Println("Test")
+}
+
+func testThis() {
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

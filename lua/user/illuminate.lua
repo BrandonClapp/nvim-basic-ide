@@ -1,3 +1,7 @@
+-- https://github.com/RRethy/vim-illuminate
+-- illuminate.vim - (Neo)Vim plugin for automatically highlighting other uses of the word under 
+-- the cursor using either LSP, Tree-sitter, or regex matching.
+
 local status_ok, illuminate = pcall(require, "illuminate")
 if not status_ok then
 	return

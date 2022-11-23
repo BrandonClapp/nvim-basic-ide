@@ -1,4 +1,6 @@
--- TODO: Figure out what this does. Add a description.
+-- https://github.com/akinsho/bufferline.nvim
+-- Shows open buffers
+
 local status_ok, bufferline = pcall(require, "bufferline")
 if not status_ok then
   return
